@@ -1,5 +1,5 @@
 SELECT p.name_pharmacy, p.address
-FROM dbo.Pharmacy AS p
+FROM Pharmacy AS p
 WHERE EXISTS (
     SELECT 1
     FROM dbo.Stock AS s

@@ -1,4 +1,7 @@
-CREATE VIEW stock_expired
+USE PharmacyDB;
+GO
+
+CREATE OR ALTER VIEW stock_expired
 AS
 SELECT
     stock_id,
