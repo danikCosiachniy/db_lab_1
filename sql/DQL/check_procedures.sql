@@ -43,7 +43,7 @@ DECLARE @ok BIT, @rem INT;
 
 -- Списание 1 штуки из stock_id = 1 (если там есть остаток)
 EXEC dbo.sp_decrease_stock
-     @stock_id = 1,
+     @stock_id = 53,
      @take_qty = 1,
      @success = @ok OUTPUT,
      @remaining_qty = @rem OUTPUT;
